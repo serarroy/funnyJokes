@@ -1,38 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #ABD9FF;
+  font-family: 'Poor Story', cursive;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title{
+  font-size: 60px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.jokes-container{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.jokes{
+  font-size: 60px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.rotate-loader{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 160px;
+}
+
+.joke-button{
+  font-size: 40px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: 'Poor Story', cursive;
+  padding-top: 250px;
+}
+
+.joke-button:hover{
+  font-size: 50px;
+  color:blueviolet;
 }
